@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main color -->
+    <color name="primary">#1E88E5</color> <!-- 靛蓝蓝（主色） -->
+    <color name="primaryLight">#BBDEFB</color> <!-- 浅蓝色（按钮、背景） -->
+    <color name="primaryDark">#1565C0</color> <!-- 深蓝色（导航条） -->
+    <color name="backgroundGray">#E3F2FD</color> <!-- 牛奶蓝背景 -->
+
+    <!-- 中性色调 -->
+    <color name="black">#212121</color> <!-- 深黑色（主文本） -->
+    <color name="white">#FFFFFF</color> <!-- 白色（背景） -->
+    <color name="gray">#9E9E9E</color> <!-- 灰色（次要文字） -->
+    <color name="darkGray">#616161</color> <!-- 深灰（辅助信息） -->
+    <color name="deepBlue">#1976D2</color> <!-- 深蓝，用于强调 -->
+    <color name="lightBlue">#90CAF9</color> <!-- 柔和蓝，用于次要按钮 -->
+    <color name="lightGray">#EAF4FD</color> <!-- 淡奶蓝背景/禁用色 -->
+    <color name="darkBlue">#0D47A1</color> <!-- 深靛蓝，高亮使用 -->
+    <color name="deepGray">#3E2723</color> <!-- 深棕色，增强层次感 -->
+
+    <!-- 状态和交互颜色 -->
+    <color name="success">#4FC3F7</color> <!-- 天蓝色（成功提示） -->
+    <color name="warning">#0288D1</color> <!-- 靛蓝色（警告） -->
+    <color name="error">#D32F2F</color> <!-- 保持番茄红（错误提示） -->
+
+    <!-- 自定义渐变颜色 -->
+    <color name="gradientStart">#42A5F5</color> <!-- 渐变起始：亮蓝 -->
+    <color name="gradientEnd">#90CAF9</color> <!-- 渐变结束：淡蓝 -->
+    <color name="green">#26C6DA</color> <!-- 替代绿色：青蓝色 -->
+</resources>

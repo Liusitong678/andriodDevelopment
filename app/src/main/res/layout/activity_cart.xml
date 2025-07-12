@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_container"
+    tools:context=".fragment.CartFragment">
+
+    <!-- 商品列表 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="2dp"
+        android:scrollbars="vertical" />
+
+    <!-- 新增：小计、税额 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:elevation="4dp">
+
+        <!-- 不含税价格 -->
+        <TextView
+            android:id="@+id/subtotalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtotal: $0.00"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingBottom="4dp" />
+
+        <!-- 税额 -->
+        <TextView
+            android:id="@+id/taxText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tax (13%): $0.00"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingBottom="4dp" />
+    </LinearLayout>
+
+    <!-- 总价 + 结账按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="12dp"
+        android:background="@color/white"
+        android:elevation="6dp">
+
+        <TextView
+            android:id="@+id/totalPriceText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="Total: $0.00"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/checkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_button"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="@string/checkout"
+            android:backgroundTint="@color/primary"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

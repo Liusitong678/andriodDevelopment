@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SneakNest</string>
+    <string name="home">Home</string>
+    <string name="get_started">Started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="products">Products</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">Price: $0.00</string>
+    <string name="description">Description</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_to_cart">Add</string>
+    <string name="go_to_cart">Cart</string>
+    <string name="product_image">Product Image</string>
+    <string name="zero_price">$0.00</string>
+    <string name="default_quantity">1</string>
+    <string name="remove">Remove</string>
+    <string name="cart">Cart</string>
+    <string name="total_price">Total: $0.00</string>
+    <string name="checkout">Checkout</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mailing_address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="submit_order">Submit</string>
+    <string name="store">Store:</string>
+    <string name="app_title">Welcome to Online Supermarket</string>
+    <string name="login">Login</string>
+    <string name="pay_information">Pay Information</string>
+    <string name="unit_number">Unit Number</string>
+    <string name="city">City</string>
+    <string name="postal_code">Zip/Postal Code</string>
+    <string name="state">State</string>
+    <string name="card_number">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="shipping_information">Shipping Information</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="dont_have_account">Don’t have an account? Sign up now.</string>
+    <string name="orders">Orders</string>
+    <string name="order_id"><b>Order ID: </b></string>
+    <string name="status"><b>Status: </b></string>
+    <string name="order_time"><b>Order Time: </b></string>
+    <string name="order_price">Order Price: $</string>
+    <string name="view_orders">view order</string>
+    <string name="order_details">Order Details</string>
+    <string name="payment_info">Payment Info</string>
+    <string name="user_name"><b>User Name: </b></string>
+    <string name="address"><b>Address: </b></string>
+    <string name="total_price_empty">"Total: "</string>
+    <string name="thank_you_for_your_order">Thank You for Your Order!</string>
+    <string name="your_order_has_been_placed_successfully">Your order has been placed successfully.</string>
+    <string name="view_my_orders">View My Orders</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="payment_email"><b>Email: </b></string>
+    <string name="phone"><b>Phone Number: </b></string>
+    <string name="no_orders">"You have no orders yet! "</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="my_orders">My Orders</string>
+    <string name="order_success">Order Successfully</string>
+    <string name="order_info">Order Info</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="payment_methods">
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>PayPal</item>
+    </string-array>
+</resources>

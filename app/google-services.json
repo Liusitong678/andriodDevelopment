@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824035049154",
+    "project_id": "sneaknest",
+    "storage_bucket": "sneaknest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824035049154:android:eea25975c9407cd716c55b",
+        "android_client_info": {
+          "package_name": "com.example.sneaknest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdwxs3AWp6kWvb1fu6r21VjesJ70D8qGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

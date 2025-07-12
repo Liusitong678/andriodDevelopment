@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragment.CheckoutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/shipping_information"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/first_name"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/last_name"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/mailing_address"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/unitNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/unit_number"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_input"
+                android:hint="@string/city"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_input"
+                android:hint="@string/state"
+                android:padding="12dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/postalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/postal_code"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:maxLength="10"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/pay_information"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/paymentOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/cardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/card_number"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_input"
+            android:hint="@string/cvv"
+            android:inputType="textPassword"
+            android:maxLength="3"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitOrderButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/submit_order"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</ScrollView>
